@@ -1,5 +1,6 @@
 ---
 title: windows
+categories: windows
 tags: 
 - windows
 ---

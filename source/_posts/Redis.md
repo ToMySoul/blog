@@ -1,5 +1,6 @@
 ---
 title: Redis
+categories: 数据库
 tags: 
 - redis
 ---

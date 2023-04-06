@@ -1,5 +1,6 @@
 ---
 title: 八股文
+categories: 工作
 tags: JAVA
 ---
 # Java 八股文

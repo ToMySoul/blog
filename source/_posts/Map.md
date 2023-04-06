@@ -1,8 +1,9 @@
 ---
-title: java-Map
+title: Map
+categories: 数据结构
 tags: 
-- JAVA
-- 集合
+- Java
+- 数组
 ---
 # Map -java1.8
 

@@ -1,8 +1,9 @@
 ---
-title: java-List
+title: List
+categories: 数据结构
 tags: 
-- JAVA
-- 集合
+- Java
+- 数组
 ---
 # List
 

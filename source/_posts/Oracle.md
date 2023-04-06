@@ -1,5 +1,6 @@
 ---
 title: oracle
+categories: 数据库
 tags: 
 - oracle
 ---

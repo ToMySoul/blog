@@ -1,3 +1,10 @@
+---
+title: List-Set-Map
+categories: 数据结构
+tags: 
+- Java
+- 数组
+---
 ### List-Set-Map
 
 * List  有序，允许存储重复元素，允许存取Null 值

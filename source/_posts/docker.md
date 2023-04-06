@@ -1,8 +1,11 @@
+---
+title: docker 
+categories: 工作
+tags: 
+- 镜像
+- docker
+---
 
----
-title: 常见指令
-tags: docker
----
 # docker
 
 容器列表：docker ps   ；docker ps -a 

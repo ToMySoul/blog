@@ -1,5 +1,6 @@
 ---
 title: Java 设计原则
+categories: 工作
 tags: 
 - JAVA
 - 设计原则

@@ -1,7 +1,8 @@
- 
 ---
 title: 常用命令
-tags: idea
+categories: 软件开发工具
+tags: 
+- idea
 ---
  插件库搜索不到调整代理
 

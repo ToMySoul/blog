@@ -1,5 +1,6 @@
 ---
 title: Nginx
+categories: 反向代理
 tags: 
 - nginx
 ---

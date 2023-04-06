@@ -1,6 +1,9 @@
 ---
 title: 常见命令
-tags: gitee
+categories: 工作
+tags: 
+- gitee
+- 远程仓库
 ---
 # 码云
 

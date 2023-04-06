@@ -1,5 +1,7 @@
 ---
 title: springboot
+categories: 
+- 问题集
 tags: 
 - springboot
 - idea

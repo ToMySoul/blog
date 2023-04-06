@@ -1,8 +1,9 @@
 ---
 title: Redis
-categories: 数据库
+categories: 工作
 tags: 
 - redis
+- 数据库
 ---
 
 ### 什么是Redis

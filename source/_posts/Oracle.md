@@ -1,8 +1,9 @@
 ---
 title: oracle
-categories: 数据库
+categories: 工作
 tags: 
 - oracle
+- 数据库
 ---
 
 

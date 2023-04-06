@@ -1,6 +1,6 @@
 ---
 title: Mysql
-categories: 数据库
+categories: 工作
 tags: 
 - 数据库
 - Mysql

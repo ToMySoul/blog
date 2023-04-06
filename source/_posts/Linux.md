@@ -1,19 +1,14 @@
-
+---
+title: Linux
+date: 2023-04-06 11:08:26
+categories: - 工作
+tags:
+- Linux 
+---
 # Linux 
-
-腾讯云账号：100029871868
-
-子用户ID：souk0920
-
-密码Yi2019
-
-!@#123qwe
-
-公网：119.91.202.124
 
  查看centos 版本： cat /etc/redhat-release 
 
-https://cloud.tencent.com/login/subAccount/100029871868?type=subAccount&username=souk0920
 
 system   oracle 
 
@@ -164,29 +159,9 @@ ctrl +d 退出容器
 
 ## 其他
 
-### vim
-
- vim ：
-
-:wq 保存所有文件退出
-
-:q! 强制退出
-
-:$ 调到最后一行
-
-:1 调到第一行
-
-
-
-### 查找文件夹
 
 find  -name 【文件夹】
 
-### 解压
-
-```bash
-tar -zxvf 【压缩包.tar.gz】
-```
 
 ## Nginx
 
@@ -255,3 +230,34 @@ password: xs374ca
  查看linux 服务列表 
 
 systemctl list-unit-files 
+
+
+
+三、systemctl参数说明
+1、使用语法
+用法：systemctl [OPTIONS…] {COMMAND} …
+
+2 、参数说明
+参数	参数说明
+start	立刻启动后面接的unit
+stop	立刻关闭后面接的unit
+restart	立刻关闭后启动后面接的unit，亦即执行stop再start的意思
+reload	不关闭后面接的unit的情况下，重载配置文件，让设定生效
+enable	设定下次开机时，后面接的unit会被启动
+disable	设定下次开机时，后面接的unit 不会被启动
+status	目前后面接的这个unit 的状态，会列出是否正在执行、是否开机启动等信息。
+is-active	目前有没有正在运行中
+is-enable	开机时有没有预设要启用这个unit
+kill	不要被kill这个名字吓着了,它其实是向运行unit的进程发送信号
+show	列出unit的配置。
+mask	注销unit,注销后你就无法启动这个unit了
+unmask	取消对unit的注销
+list-units	依据unit列出目前有启动的unit。若加上–all才会列出没启动的。（等价于无参数）
+list-unit-files	列出所有以安装unit以及他们的开机启动状态（enabled、disabled、static、mask）。
+–type=TYPE	就是unit type，主要有service，socket，target等
+get-default	取得目前的 target
+set-default	设定后面接的 target 成为默认的操作模式
+isolate	切换到后面接的模式
+————————————————
+版权声明：本文为CSDN博主「恒悦sunsite」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/carefree2005/article/details/125886811

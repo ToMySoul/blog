@@ -1,8 +1,9 @@
 ---
 title: Nginx
-categories: 反向代理
+categories: 工作
 tags: 
 - nginx
+- 反向代理
 ---
 # Nginx 
 

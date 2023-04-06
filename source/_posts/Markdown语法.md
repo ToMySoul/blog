@@ -2,7 +2,7 @@
 title: Markdown语法
 date: 2023-04-06 10:03:07
 categories: 文本
-tags:
+tags: 文本
 ---
 Markdown语法及实例汇总
 Markdown编辑器：Typora、MarkdownPad 2、在线编辑器

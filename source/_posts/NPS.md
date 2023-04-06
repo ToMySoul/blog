@@ -1,8 +1,9 @@
 ---
-title: nps
+title: NPS
 categories: 工作
-tags: 内网穿透
-
+tags: 
+- 内网穿透
+- NPS
 ---
 
 ## NPS

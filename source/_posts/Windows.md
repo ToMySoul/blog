@@ -6,6 +6,7 @@ tags:
 ---
 
 
+
 cmd 切换系统盘 ： G： enter键
 
 打开注册表：regedit

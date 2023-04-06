@@ -1,7 +1,7 @@
 ---
 title: Linux
 date: 2023-04-06 11:08:26
-categories: - 工作
+categories: 工作
 tags:
 - Linux 
 ---

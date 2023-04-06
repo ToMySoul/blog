@@ -1,10 +1,10 @@
 ---
 title: Linux常用命令
 date: 2023-04-06 11:08:26
-categories: - 工作
+categories: 工作
 tags:
 - Linux 
--  常用指令
+- 常用命令
 ---
 
 ## 文件
@@ -17,13 +17,11 @@ tags:
 
 ### 文件删除
 > rm -rf  [文件夹路径]
->
 > rm -f [文件路径+文件名]
 
-### 文件压缩解压
-> 文件解压
-> tar -zxvf 【压缩包.tar.gz】
-
+### 文件生成
+> echo "[内容]" > [文件名+后缀]
+> echo "hello world" > helloworld.txt
 
 ### 文件编辑vim
 > 保存所有文件退出
@@ -34,6 +32,11 @@ tags:
 >:$ 
 >调到第一行
 >:1 
+
+### 文件压缩解压
+> 文件解压
+> tar -zxvf 【压缩包.tar.gz】
+
 
 ## 系统
 ### 服务

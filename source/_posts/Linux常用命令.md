@@ -42,6 +42,8 @@ tags:
 ### 服务
 > 查看服务列表
 > systemctl list-unit-files 
+> 查看正在启动的服务
+> systemctl | grep running
 > 启动 | 停止 | 重启
 > systemctl start | stop | restart [服务名称]
 > 设置开机服务自启

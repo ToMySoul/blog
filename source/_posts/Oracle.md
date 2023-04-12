@@ -62,3 +62,25 @@ public OracleKeyGenerator oracleKeyGenerator(){
 ```
 
 alter table  【表明】 add constraint 【主键名】 primary key (【字段名】);
+
+
+### Linux java 部署
+安装包下载地址
+>https://download.oracle.com/otn/java/jdk/8u361-b09/0ae14417abb444ebb02b9815e2103550/jdk-8u361-linux-x64.tar.gz?AuthParam=1681278056_b4c2ae20f5d3113832792b9893466b61
+解压
+tar -zxvf [安装包]
+
+配置环境变量
+vim /etc/profile
+
+```
+export JAVA_HOME=/home/java/jdk1.8.0_361  #jdk安装目录
+export JRE_HOME=${JAVA_HOME}/jre
+export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib:$CLASSPATH
+export JAVA_PATH=${JAVA_HOME}/bin:${JRE_HOME}/bin
+export PATH=$PATH:${JAVA_PATH}
+```
+
+通过命令source /etc/profile让profile文件立即生效
+java  -version
+

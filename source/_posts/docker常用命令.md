@@ -26,6 +26,9 @@ tags:
 > 退出容器
 > ctrl+d
 >
+###  查看容器日志
+
+
 ## 挂载
 > docker run --name mysql -p 3306:3306 -v /home/mysql/conf/my.cnf:/etc/mysql/my.cnf -v /home/mysql/data:/var/lib/mysql -v /home/mysql/logs:/logs -e MYSQL_ROOT_PASSWORD=admin123456 --restart=always -d mysql
 >
@@ -37,3 +40,5 @@ tags:
 |  -d  |  守护进程后台运行    |
 |  -it |  启动并运行    |
 | --restart=always   |  在docker服务重启后,自动重启mysql服务,也可以吧docker 服务作为开机启动.    |
+
+

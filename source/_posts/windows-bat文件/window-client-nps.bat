@@ -1,0 +1,1 @@
+cmd /k "cd /d D:\software\windows_386_client & npc.exe -server=119.91.202.124:8024 -vkey=souknps -type=tcp"

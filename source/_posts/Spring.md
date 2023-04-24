@@ -55,3 +55,20 @@ Aop 一般称为面向切面，作为面向对象的补充，用于将那些与�
 （7）观察者模式：Spring事件驱动模型就是观察者模式的一个经典应用。
 
 （8）桥接模式：可以根据客户的需求能够动态切换不同的数据源。比如我们的项目需要连接多个数据库，客户在每次访问中根据需要会去访问不同的数据库
+
+## spring 作用域
+SpringIoc 容器有两种作用域，一种是ioc 默认的Singleton(单例作用域)，一种是可手动修改的prototype (原型作用域/多例作用域),在默认情况下IOC 容器采用singleton 所有人获取到的都是同一个Bean 对象（效率高）.
+
+@Component
+public class CatBeans {
+    @Scope("prototype")
+       @Scope("Singleton")
+    //@Scope(ConfigurableListableBeanFactory.SCOPE_PROTOTYPE)
+    //通过Spring内置定义的字符串设置属性也行
+    @Bean
+    public Cat cat(){
+        Cat cat = new Cat();
+        cat.setName("莫妮卡");
+        return cat;
+    }
+}

@@ -27,7 +27,13 @@ tags:
 > ctrl+d
 >
 ###  查看容器日志
-
+> 查看最近10条日志, 并持续打印
+> docker logs -f --tail 10 【容器名称】
+> -f : 跟踪日志输出
+> -t : 显示时间戳
+> --tail :仅列出最新N条容器日志
+> -- since :显示某个日期至今的所有日志 
+ 
 
 ## 挂载
 > docker run --name mysql -p 3306:3306 -v /home/mysql/conf/my.cnf:/etc/mysql/my.cnf -v /home/mysql/data:/var/lib/mysql -v /home/mysql/logs:/logs -e MYSQL_ROOT_PASSWORD=admin123456 --restart=always -d mysql

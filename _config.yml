@@ -40,6 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
+# 是否生成MD 文件目录
 post_asset_folder: true
 relative_link: false
 future: true

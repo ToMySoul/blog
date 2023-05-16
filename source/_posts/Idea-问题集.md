@@ -30,3 +30,13 @@ mvn install:install-file -DgroupId=[项目包名groupId] -DartifactId=[工程名
   
 ```
 
+依赖传递问题
+```
+ pomA ,pomB   pomB 依赖于 pomA  不想引用pomA 某个jar 
+ 则设置属性 <optional>true</optional> <!-- 表示依赖不会传递 -->
+ 
+ 注：如果A为父依赖，则该optional 不生效。 
+ 该依赖为C依赖必须则将该依赖添加到C中即可，去除掉父pom该依赖。
+```
+
+

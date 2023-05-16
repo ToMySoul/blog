@@ -27,3 +27,12 @@ UserArchetypes.xml
 
 https://notepad-plus-plus.org/
 
+## 端口
+>查询端口 netstat -ano |findstr "62001"
+>taskkill /f /t /im "15936" 
+>taskkill /pid 26308
+
+## 服务 
+> 开启服务net start 【serviceName】
+> 删除服务 sc delete 【serviceName】
+
